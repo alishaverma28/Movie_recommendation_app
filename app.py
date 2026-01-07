@@ -9,7 +9,7 @@ genai.configure(api_key=os.getenv("GOOGLE_GEMINI_API"))
 st.title(" ✨ Movie Recommendation System ✨")
 user_input = st.text_input("Enter a movie you like:")
 submit= st.button("Click here..")    
-# if submit:
+# if submit: 
 #     st.markdown("### Recommended Movies:")
 # else:
 #     st.warning("Please enter a movie name and click the button.")
@@ -19,4 +19,4 @@ if submit and user_input.strip():
     response = model.generate_content(f"Generate Movie Recommendations based on this movie: {user_input}")
     st.write(f"Related Movie Recommendations: \n {response.text}")
 else:
-    st.write("No movie name entered yet.")
+    st.write("No movie name entered yet.") 
