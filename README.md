@@ -30,7 +30,7 @@ so python-dotenv, langchaiin
 16) Check python version
 17) python -m venv .venv  (create venv)
 18) source .venv/Scripts/activate    or source .venv/bin/activate (works for macos)
-19) pip install - requirements.txt
+19) pip install -r requirements.txt
 20) create app.py
 21) Write or copy the code
 22) lets say you want to test the code written so far use command streamlit run app.py
