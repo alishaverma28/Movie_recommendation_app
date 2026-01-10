@@ -32,6 +32,7 @@ Utilities: python-dotenv, GitHub, Streamlit Cloud
 
 ## 📂 Project Structure
 Movie-Recommendation-App/
+
 │
 ├── app.py               # Streamlit application code
 
@@ -127,6 +128,7 @@ RAG-based recommendations
 ## 👩‍💻 Author
 
 Alisha Verma
+
 📧 Email: alishavmca2024@gmail.com
 
 🔗 GitHub: alishaverma0808
