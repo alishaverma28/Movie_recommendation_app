@@ -1,48 +1,125 @@
-# Movie_recommendation_app
-We will use GnAI model like google gemini to suggest a movie similar to the user input
+🎬 AI Movie Recommendation System (Gemini + Streamlit)
 
-## APP link:
-https://moviefind.streamlit.app/
+An AI-powered Movie Recommendation System that suggests similar movies based on a user’s favorite movie using Google Gemini (Generative AI).
+Built with Streamlit for a simple and interactive web interface.
 
-## How does it work:
-Sign in to github
+🔗 Live App: https://moviefind.streamlit.app/
+
+🚀 Features
+
+Accepts a movie name as user input
+
+Uses Google Gemini AI to generate intelligent movie recommendations
+
+Clean and interactive Streamlit UI
+
+Deployed on Streamlit Cloud
+
+Secure API key handling using .env
+
+🛠️ Tech Stack & Tools
+
+Badges (you can keep these):
 
 
-1) Create Repo
 
-2) gitbash
-3) cd d:
-4) Go to git Repo (Green button Code)-> Copy the url of repo (HTTPS)
-5) git clone <repo_URL>
 
-6) Now the git repo gets made/cloned in the D: drive
 
-7) cd match_resume.ai/    (went to the actual folder - main to open VScode there)
-8) code .
-9) IN vscode now you will land on the project match_resume.ai/ , click on newfile
-10) create .env file (to store api etc.) GOOGLE-GEMINI-API = "api_key"
-11) create requirements.txt (Google colab comes with preinstalled libraries, but not vscode)
-12) streamlit, pypdf, google-generativeai, (now we want to run the apikey to run locally before it goes global)
-so python-dotenv, langchaiin
-13) Click on terminal (powershell opens)(convert it to Gitbash)
-14) Now lets create the virtual env 
-15) Before that optionally we can write notes in read me
-16) Check python version
-17) python -m venv .venv  (create venv)
-18) source .venv/Scripts/activate    or source .venv/bin/activate (works for macos)
-19) pip install -r requirements.txt
-20) create app.py
-21) Write or copy the code
-22) lets say you want to test the code written so far use command streamlit run app.py
-23) for the first time it will ask for some credentials
-24) once you are done running the app go to gitbash
-25) activate venv (if needed) then type git init
-26) git add. (add everything)
-27) git commit -m "Final-Commit"
-28) If running git the first time:
-	git config --global user.email <emailid>
-	git config --global user.name  <user_name>
-29) git push origin main
-30) git commit -m "Final-Commit"
-31) git push origin main
-32) GO to streamlit and login using GitHub , click on create app
+
+
+
+📂 Project Structure
+Movie-Recommendation-App/
+│
+├── app.py               # Streamlit application code
+├── requirements.txt     # Project dependencies
+├── .env                 # API key (not pushed to GitHub)
+├── README.md            # Project documentation
+└── .venv/               # Virtual environment
+
+⚙️ How It Works
+
+User enters a movie name
+
+Input is sent to Google Gemini Generative AI
+
+Gemini analyzes the movie context
+
+AI generates a list of similar movie recommendations
+
+Results are displayed instantly in the Streamlit app
+
+🧪 Run the App Locally
+1️⃣ Clone the Repository
+git clone https://github.com/your-username/Movie-Recommendation-App.git
+cd Movie-Recommendation-App
+
+2️⃣ Create Virtual Environment
+python -m venv .venv
+source .venv/Scripts/activate   # Windows
+# OR
+source .venv/bin/activate       # macOS/Linux
+
+3️⃣ Install Dependencies
+pip install -r requirements.txt
+
+4️⃣ Set Up Environment Variables
+
+Create a .env file:
+
+GOOGLE_GEMINI_API=your_api_key_here
+
+
+⚠️ Do not push .env to GitHub
+
+5️⃣ Run the App
+streamlit run app.py
+
+📦 requirements.txt
+streamlit
+google-generativeai
+python-dotenv
+langchain
+
+🌐 Deployment (Streamlit Cloud)
+
+Push code to GitHub
+
+Login to Streamlit Cloud using GitHub
+
+Click Create App
+
+Select repository & app.py
+
+Add GOOGLE_GEMINI_API in Secrets
+
+Deploy 🎉
+
+🧠 Learning Outcomes
+
+Hands-on experience with Generative AI (Gemini)
+
+Streamlit app development & deployment
+
+API key security using environment variables
+
+End-to-end AI project workflow
+
+📌 Future Improvements
+
+Add movie posters using TMDB API
+
+Genre-based filtering
+
+User rating system
+
+RAG-based recommendations
+
+👩‍💻 Author
+
+Alisha Verma
+📧 Email: alishavmca2024@gmail.com
+
+🔗 GitHub: https://github.com/alishaverma0808
+
+🔗 LinkedIn: https://www.linkedin.com/in/alisha-verma-b6a823222/
