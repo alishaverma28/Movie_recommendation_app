@@ -34,9 +34,13 @@ Utilities: python-dotenv, GitHub, Streamlit Cloud
 Movie-Recommendation-App/
 │
 ├── app.py               # Streamlit application code
+
 ├── requirements.txt     # Project dependencies
+
 ├── .env                 # API key (not pushed to GitHub)
+
 ├── README.md            # Project documentation
+
 └── .venv/               # Virtual environment
 
 ---
@@ -56,26 +60,26 @@ Results are displayed instantly in the Streamlit app
 ---
 
 ## 🧪 Run the App Locally
-# 1️⃣ Clone the Repository
+1️⃣ Clone the Repository
 git clone https://github.com/your-username/Movie-Recommendation-App.git
 cd Movie-Recommendation-App
 
-# 2️⃣ Create Virtual Environment
+2️⃣ Create Virtual Environment
 python -m venv .venv
 source .venv/Scripts/activate   # Windows
-# OR
+OR
 source .venv/bin/activate       # macOS/Linux
 
-# 3️⃣ Install Dependencies
+3️⃣ Install Dependencies
 pip install -r requirements.txt
 
-# 4️⃣ Set Up Environment Variables
-# Create a .env file
+4️⃣ Set Up Environment Variables
+Create a .env file
 GOOGLE_GEMINI_API=your_api_key_here
 
-# ⚠️ Do NOT push .env to GitHub
+⚠️ Do NOT push .env to GitHub
 
-# 5️⃣ Run the App
+5️⃣ Run the App
 streamlit run app.py
 
 ---
